@@ -1,0 +1,47 @@
+#contact_section {
+  background-color: #2C3E50; /* Navy Blue */
+  color: #FFFFFF; /* White text */
+  padding: 50px 0;
+}
+
+.detail h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.detail p {
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  margin-right: 15px;
+  color: #FFFFFF;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #DDDDDD;
+}
+
+.social-links a:active {
+  transform: scale(1.1);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 575.98px) {
+  .social-links a {
+    margin-right: 10px;
+  }
+
+  #contact_section {
+    padding: 30px 10px;
+  }
+
+  .detail h4 {
+    font-size: 1.2rem;
+  }
+
+  .detail p {
+    font-size: 0.9rem;
+  }
+}
