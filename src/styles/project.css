@@ -1,9 +1,17 @@
+
 .card-title {
   font-size: large !important;
 }
 
 .card-text {
   font-size: medium !important;
+}
+
+#project_heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
 }
 
 .card {
@@ -36,10 +44,16 @@
   background-color: #f2f2f2; /* or #e9ecef */
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 28rem;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 767.98px) {
+
+#project_heading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
 .card-img-custom {
   height: 150px;
 }
@@ -54,6 +68,12 @@
 }
 
 @media (max-width: 575.98px) {
+
+#project_heading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
 .card-img-custom {
   height: 120px;
 }

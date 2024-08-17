@@ -21,7 +21,7 @@
     color: red;
     font-weight: bolder;
 }
-/* Media queries for responsiveness */
+
 @media (max-width: 991px) {
     .nav-link {
         margin-left: 0 !important;

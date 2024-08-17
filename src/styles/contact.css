@@ -27,7 +27,6 @@
   transform: scale(1.1);
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 575.98px) {
   .social-links a {
     margin-right: 10px;

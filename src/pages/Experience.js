@@ -57,7 +57,7 @@ export default function Experience() {
     },
     {
       icon: schoolIcon,
-      date: '2019',
+      date: '2015 - 2019',
       title: 'B.E. COMPUTER ENGINEER',
       subtitle: 'Mumbai University',
       desc: [

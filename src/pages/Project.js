@@ -12,12 +12,12 @@ import project5 from '../Images/hr_portal.jpg';
 const projects = [
   {
     title: "Patient Data Management",
-    description: "A React Based Project where all clinical patient & practice level data are visualized using highcharts(graphs). (Team-Size = 35).",
+    description: "A React Based Project where all clinical patient & practice level data are visualized using highcharts(graphs) used flux, Redux for data store also used various other libraries like Immutable.js, corejs, primereact, Jquery etc. (Team-Size = 35).",
     image: project1
   },
   {
     title: "Clinical Trials Data Management",
-    description: "A React Based Project that standardizes raw clinical data into industry specific formats using deep learning. (Team-Size = 20).",
+    description: "A React Based Project that standardizes raw clinical data into industry specific formats using deep learning Used Redux for centrai data store and various other npm libraries. (Team-Size = 20).",
     image: project2
   },
   {
@@ -32,7 +32,7 @@ const projects = [
   },
   {
     title: "HR Management Portal",
-    description: "Developed few of the modules of HR Management Portal using Reactjs, Javascript and MaterialUI It was used to automate all the daily tasks related to HR (Team size = 8)",
+    description: "Developed few of the modules of HR Management Portal using Reactjs, Javascript and MaterialUI It was used to automate all the daily tasks related to HR Implemented the complete authorization module, dashboard module for HR visualization (Team size = 8).",
     image: project5
   }
   // Add more projects here
@@ -51,7 +51,7 @@ export default function Project() {
   return (
     <div id='projects_section'>
       <Container>
-        <h1 className="text-center my-5">PROJECTS</h1>
+        <h1 className="text-center my-5" id="project_heading">PROJECTS</h1>
         <p id='proj_descp'>
           I have experience of working on various projects. Below mentioned projects are only available to access for authorized client users. In order to check for further more projects, you can visit my personal GitHub account.
         </p>
