@@ -44,51 +44,36 @@ export default function Home() {
                 <p> I'm <span className='highlight_name'> Rakesh Yadav </span>, an enthusiastic
                   FullStack Software Engineer, <br />
                   Keen on Problem Solving 👨‍💻 and Always learning.</p>
-                <motion.div
-                  className='social-links'
-                  initial={{ opacity: 0, x: -50 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5, delay: 0.7 }}
-                >
                   <div className='social-links'>
-                    <motion.a
+                    <a
                       href="https://github.com/rakeshsoftwareDevops"
                       target="_blank"
                       rel="noopener noreferrer"
-                      whileHover={{ scale: 1.2, color: '#333' }}
-                      whileTap={{ scale: 0.9 }}
                     >
-                      <FontAwesomeIcon icon={faGithub} size="2x" />
-                    </motion.a>
-                    <motion.a
+                      <FontAwesomeIcon icon={faGithub} size="3x" color ='#333' />
+                    </a>
+                    <a
                       href="https://www.linkedin.com/in/rakesh-yadav-848381168/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      whileHover={{ scale: 1.2, color: '#0077b5' }}
-                      whileTap={{ scale: 0.9 }}
                     >
-                      <FontAwesomeIcon icon={faLinkedin} size="2x" />
-                    </motion.a>
-                    <motion.a
+                      <FontAwesomeIcon icon={faLinkedin} size="3x" color ='#0077b5'/>
+                    </a>
+                    <a
                       href="mailto:rakeshyadav45222@gmail.com"
                       target="_blank"
                       rel="noopener noreferrer"
-                      whileHover={{ scale: 1.2, color: '#EA4335' }}
-                      whileTap={{ scale: 0.9 }}
                     >
-                      <FontAwesomeIcon icon={faGoogle} size="2x" />
-                    </motion.a>
-                    <motion.a
+                      <FontAwesomeIcon icon={faGoogle} size="3x" color = '#EA4335' />
+                    </a>
+                    <a
                       href="https://www.instagram.com/rakeshyad435/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      whileHover={{ scale: 1.2, color: '#E4405F' }}
-                      whileTap={{ scale: 0.9 }}
                     >
-                      <FontAwesomeIcon icon={faInstagram} size="2x" />
-                    </motion.a>
+                      <FontAwesomeIcon icon={faInstagram} size="3x" color = '#E4405F' />
+                    </a>
                   </div>
-                </motion.div>
                 <Button variant="danger" size="lg" onClick={scrollToContact}>Contact Me</Button>{' '}
               </div>
             </Col>
