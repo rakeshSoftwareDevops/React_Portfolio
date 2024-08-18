@@ -24,8 +24,8 @@ export default function Myskills() {
       opacity: 1,
       y: 0,
       transition: {
-        delayChildren: 0.3,
-        staggerChildren: 0.2,
+        delayChildren: 0.5,
+        staggerChildren: 0.3,
       },
     },
   };
@@ -33,6 +33,16 @@ export default function Myskills() {
   const itemVariants = {
     hidden: { opacity: 0, scale: 0.8 },
     visible: { opacity: 1, scale: 1 },
+  };
+
+  const headingVariants = {
+    hidden: { opacity: 0, y: -50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, delay: 0.5 } },
+  };
+
+  const paragraphVariants = {
+    hidden: { opacity: 0, x: -50 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.8, delay: 1 } },
   };
 
   return (
@@ -44,13 +54,23 @@ export default function Myskills() {
           variants={containerVariants}
         >
           <Row>
-            <h1 className="text-center my-5" id='skills_heading'>MY SKILLS</h1>
-            <p id='skills_descp'>
-            I have extensive experience working with various tech stacks on multiple large-scale projects. As a technical enthusiast, I thrive in environments where I can continuously learn and apply my skills to create efficient and innovative solutions.
+            <motion.h1
+              className="text-center"
+              id='skills_heading'
+              variants={headingVariants}
+            >
+              MY SKILLS
+            </motion.h1>
+            <motion.p
+              id='skills_descp'
+              variants={paragraphVariants}
+            >
+              I have extensive experience working with various tech stacks on multiple large-scale projects. As a technical enthusiast, I thrive in environments where I can continuously learn and apply my skills to create efficient and innovative solutions.
               <br />
-              As a Full-Stack Engineer, I specialize in JavaScript, React, Redux, and Node.js. Additionally, I have experience working with various other technologies, including Java, Python, PostgreSQL, Docker, Podman, Postman, GitHub, and have knowledge of CI/CD pipelines, including the basics of deployment. Below, I've listed some of the key technologies I've worked with, along with my proficiency levels
-            </p>
-          </Row><br/>
+              As a Full-Stack Engineer, I specialize in JavaScript, React, Redux, and Node.js. Additionally, I have experience working with various other technologies, including Java, Python, PostgreSQL, Docker, Podman, Postman, GitHub, and have knowledge of CI/CD pipelines, including the basics of deployment. Below, I've listed some of the key technologies I've worked with, along with my proficiency levels.
+            </motion.p>
+          </Row>
+          <br />
           <Row>
             {[htmlcssjslogo, reactlogo, reduxlogo, nodejslogo, tslogo, postgreslogo, pythonlogo, javalogo, gitlogo, postmanlogo, dockerlogo].map((logo, index) => (
               <Col xs={6} sm={4} md={3} lg={2} key={index}>
@@ -84,18 +104,3 @@ export default function Myskills() {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
