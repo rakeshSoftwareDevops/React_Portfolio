@@ -44,7 +44,7 @@ export default function Myskills() {
           variants={containerVariants}
         >
           <Row>
-            <h2 id='skills_heading'>MY SKILLS</h2>
+            <h1 className="text-center my-5" id='skills_heading'>MY SKILLS</h1>
             <p id='skills_descp'>
             I have extensive experience working with various tech stacks on multiple large-scale projects. As a technical enthusiast, I thrive in environments where I can continuously learn and apply my skills to create efficient and innovative solutions.
               <br />
