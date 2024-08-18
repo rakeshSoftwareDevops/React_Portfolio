@@ -12,27 +12,27 @@ import project5 from '../Images/hr_portal.jpg';
 const projects = [
   {
     title: "Patient Data Management",
-    description: "A React Based Project where all clinical patient & practice level data are visualized using highcharts(graphs) used flux, Redux for data store also used various other libraries like Immutable.js, corejs, primereact, Jquery etc. (Team-Size = 35).",
+    description: "A React-based project where clinical patient and practice-level data are visualized using Highcharts (graphs). The project utilizes Flux and Redux for state management and incorporates various other libraries such as immutable.js, core-js, primereact, jquery, scala, postgresql, java etc. (Team size: 35)",
     image: project1
   },
   {
     title: "Clinical Trials Data Management",
-    description: "A React Based Project that standardizes raw clinical data into industry specific formats using deep learning Used Redux for centrai data store and various other npm libraries. (Team-Size = 20).",
+    description: "A React-based project that standardizes raw clinical data into industry-specific formats using deep learning. Redux was used for centralized data management, and various other npm libraries, python, flask, postgresql were incorporated. (Team size: 20).",
     image: project2
   },
   {
     title: "Field Service Automation Platform",
-    description: "Involved in the development of a React, Nodejs, Sql based field service automation platform where every part of the field service was automated from generating tasks to tracking tasks till its completion. (Team-Size = 25).",
+    description: "Involved in the development of a field service automation platform based on React, Node.js, and SQL. This platform automates every aspect of field service, from generating tasks to tracking them through to completion. (Team size: 25).",
     image: project3
   },
   {
     title: "No code Automation Tool",
-    description: "Developed a chrome based plugin from scratch using React, Javascript, css3 which was used to Record, Scan, Locate all the test cases only by authorized users and convert the captured actions into english language using AI, DOM manipulation techniques for test case automation. (Team size = 15) ",
+    description: "Developed a Chrome extension from scratch using React, JavaScript, and CSS3. This plugin allows authorized users to record, scan, and locate test cases, converting captured actions into English using AI and DOM manipulation techniques for test case automation. (Team size: 15) ",
     image: project4
   },
   {
     title: "HR Management Portal",
-    description: "Developed few of the modules of HR Management Portal using Reactjs, Javascript and MaterialUI It was used to automate all the daily tasks related to HR Implemented the complete authorization module, dashboard module for HR visualization (Team size = 8).",
+    description: "Developed several modules of an HR Management Portal using React.js, JavaScript, and Material-UI. This portal automates daily HR tasks and includes a complete authorization module and a dashboard module for HR visualization. (Team size: 8)",
     image: project5
   }
   // Add more projects here
@@ -53,7 +53,7 @@ export default function Project() {
       <Container>
         <h1 className="text-center my-5" id="project_heading">PROJECTS</h1>
         <p id='proj_descp'>
-          I have experience of working on various projects. Below mentioned projects are only available to access for authorized client users. In order to check for further more projects, you can visit my personal GitHub account.
+        I have experience working on a range of projects. The projects listed below are SaaS-based and are accessible only to authorized client users. For additional projects and details, please visit my personal GitHub account.
         </p>
         <Row>
           {projects.map((project, index) => (

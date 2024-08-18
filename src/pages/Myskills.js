@@ -46,11 +46,11 @@ export default function Myskills() {
           <Row>
             <h2 id='skills_heading'>MY SKILLS</h2>
             <p id='skills_descp'>
-              I have extensive experience working with various tech stacks on multiple large-scale projects. As a technical geek, I thrive in environments where I can learn continuously and apply my skills to create efficient and innovative solutions.
+            I have extensive experience working with various tech stacks on multiple large-scale projects. As a technical enthusiast, I thrive in environments where I can continuously learn and apply my skills to create efficient and innovative solutions.
               <br />
-              As a Full-Stack Engineer, I specialize in Javascript, React, Redux, and NodeJs. Below I've listed some of the key technologies I've worked with along with their proficiency levels.
+              As a Full-Stack Engineer, I specialize in JavaScript, React, Redux, and Node.js. Additionally, I have experience working with various other technologies, including Java, Python, PostgreSQL, Docker, Podman, Postman, GitHub, and have knowledge of CI/CD pipelines, including the basics of deployment. Below, I've listed some of the key technologies I've worked with, along with my proficiency levels
             </p>
-          </Row>
+          </Row><br/>
           <Row>
             {[htmlcssjslogo, reactlogo, reduxlogo, nodejslogo, tslogo, postgreslogo, pythonlogo, javalogo, gitlogo, postmanlogo, dockerlogo].map((logo, index) => (
               <Col xs={6} sm={4} md={3} lg={2} key={index}>
