@@ -67,7 +67,7 @@ export default function Myskills() {
             >
               I have extensive experience working with various tech stacks on multiple large-scale projects. As a technical enthusiast, I thrive in environments where I can continuously learn and apply my skills to create efficient and innovative solutions.
               <br />
-              As a Full-Stack Engineer, I specialize in JavaScript, React, Redux, and Node.js. Additionally, I have experience working with various other technologies, including Java, Python, PostgreSQL, Docker, Podman, Postman, GitHub, and have knowledge of CI/CD pipelines, including the basics of deployment. Below, I've listed some of the key technologies I've worked with, along with my proficiency levels.
+              As a Full-Stack Engineer, I specialize in JavaScript, React, Redux, and Node.js. Additionally, I have experience working with various other technologies, including Java, Python, PostgreSQL, Docker, Podman, Postman, GitHub, and have knowledge of CI/CD pipelines, deployment. Below, I've listed some of the key technologies I've worked with, along with my proficiency levels.
             </motion.p>
           </Row>
           <br />
