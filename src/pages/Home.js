@@ -77,7 +77,7 @@ export default function Home() {
                 <Button variant="danger" size="lg" onClick={scrollToContact}>Contact Me</Button>{' '}
               </div>
             </Col>
-            <Col>
+            <Col xs={12} md={6}>
               <Figure className='personal_pic'>
                 <Figure.Image
                   width={300}
