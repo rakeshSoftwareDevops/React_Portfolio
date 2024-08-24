@@ -42,7 +42,7 @@ export default function Home() {
                   <h1> <strong> Hello 👋. </strong> </h1>
                 </motion.div>
                 <p> I'm <span className='highlight_name'> Rakesh Yadav </span>,<br/>
-                  An Enthusiastic Full Stack Software Engineer, <br />
+                  An Enthusiastic Software Engineer, <br />
                   Keen on Problem Solving 👨‍💻 and Always learning.</p>
                   <div className='social-links'>
                     <a
