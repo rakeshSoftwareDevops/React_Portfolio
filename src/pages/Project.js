@@ -27,12 +27,12 @@ const projects = [
   },
   {
     title: "No code Automation Tool",
-    description: "Developed a Chrome extension from scratch using React, JavaScript, and CSS3. This plugin allows authorized users to record, scan, locate, automatically capture screenshot of user action for generating test cases by converting user actions into English using AI and DOM manipulation techniques for test case automation.",
+    description: "Developed a Chrome extension from scratch using ReactJs. This plugin allows authorized users to record, scan, locate, automatically capture screenshot of user action for generating test cases by converting user actions into English using AI and DOM manipulation techniques for test case automation.",
     image: project4
   },
   {
     title: "HR Management Portal",
-    description: "Developed several modules of an HR Management Portal using React JS, Redux, JavaScript, and Material-UI. This portal automates daily HR tasks and includes a complete authorization module and a dashboard module for HR visualization.",
+    description: "Developed several modules of an HR Management Portal using React JS, Redux, JavaScript, and Material-UI. This portal automates daily HR tasks and includes a complete authorization module and a dashboard module for HR data visualization.",
     image: project5
   }
   // Add more projects here
